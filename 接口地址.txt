@@ -1,0 +1,23 @@
+汽车列表：
+http://mkerp.zgcw.cn/webservice/search/vehicleList/jp/1
+
+查询字段：
+city:          城市
+age:           车龄（1代表1年以内，。。。，4代表3到5年5，5代表5年以上）
+mileage:       车里程（1代表一万公里以内）
+brand:         品牌
+series:        车系
+emissiom:      排放标准（g1-g5代表国一到国五）
+gearbox:       变速箱（1手动 2自动）
+displacement:  排量
+price:         价格区间
+keyword:       关键字
+order_field:   排序方式
+order_by:      升降序
+page:1         分页
+per_page:20    每页显示多少条数据
+ispt:0
+
+车辆品牌列表接口： /api/api_car/getBrand?jp=1
+城市列表接口： /api/Api_Area/getProArea?json=1&jp=1
+详情接口：/webservice/search/vehicleinfo/jp/1
